@@ -28,11 +28,11 @@
 }
 .front-text{
     font-family: 'Raleway', sans-serif;
-    padding-top: 8vh;
-    padding-left: 10vh;
+    padding-top: 4vh;
+    padding-left: 40vh;
 }
 .form-btn{
-    padding-left: 10vh;
+    padding-left: 40vh;
 }
 #btn-primary{
     font-weight: 600;
@@ -65,9 +65,45 @@
 #front-card{
     border: 0px solid;
 }
-.ctn-mid{
+.grey{
+    color: grey;
+}
+.ctn-story{
     background-image: url('./assets/annie-spratt-hX_hf2lPpUU-unsplash.jpg');
     font-family: 'Noto Sans JP', sans-serif;
+    height: 60vh;
+    width: auto;
+}
+.story-text{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 18vh;
+    padding-left: 40vh;
+}
+.ctn-work{
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 120vh;
+    width: auto;
+    text-align: center;
+}
+.work-text{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 16vh;
+}
+#work-title{
+    font-weight: 600;
+}
+.work-image{
+    height: 14em;
+    width: auto;
+    margin: 16px;
+}
+.work-image:hover{
+    transform: scale(1.1);
+    filter: brightness(0.4)
+}
+.ctn-plan{
+    margin-top: 2em;
+    background-image: url("./assets/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
     height: 60vh;
     width: auto;
 }
